@@ -1,21 +1,38 @@
 {
   "name": "verdant",
   "version": "0.0.0",
+  "authors": [
+    "Jason Smylnycky <jason784@gmail.com>",
+    "Jamie Smylnycky"
+  ],
+  "description": "Home Automation awesomeness",
+  "license": "MIT",
+  "homepage": "http://silvertalon.co",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "angular-animate": "~1.3.4",
-    "angular-cookies": "~1.3.4",
-    "angular-touch": "~1.3.4",
-    "angular-sanitize": "~1.3.4",
-    "angular-resource": "~1.3.4",
-    "angular-route": "~1.3.4",
-    "foundation": "~5.4.7",
-    "angular-foundation": "~0.5.1",
-    "angular": "~1.3.4"
+    "angular-animate": "~1.3.11",
+    "angular-cookies": "~1.3.11",
+    "angular-touch": "~1.3.11",
+    "angular-sanitize": "~1.3.11",
+    "angular-resource": "~1.3.11",
+    "angular-route": "~1.3.11",
+    "bootstrap-sass-official": "~3.3.1",
+    "angular-bootstrap": "0.12.x",
+    "angular": "~1.3.11",
+    "Font-Awesome": "~4.2.0",
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
-    "angular-mocks": "~1.3.4"
+    "angular-mocks": "~1.3.11"
   },
   "resolutions": {
-    "angular": "~1.3.4"
+    "angular": "~1.3.11"
   }
 }
