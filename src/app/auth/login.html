@@ -1,0 +1,20 @@
+<div class="col-xs-offset-2 col-xs-8 col-md-offset-5 col-md-2">
+  <form name="login.form" ng-submit="login.signin()" class="signin form-horizontal" autocomplete="off">
+    <fieldset>
+      <div ng-show="login.form.error" class="text-center text-danger">
+        <strong ng-bind="login.form.error"></strong>
+      </div>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" class="form-control" ng-model="login.username" placeholder="Username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control" ng-model="login.password" placeholder="Password">
+      </div>
+    </fieldset>
+    <div class="text-center form-group">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+</div>
